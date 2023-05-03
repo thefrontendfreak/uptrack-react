@@ -1,0 +1,19 @@
+// Button styles
+.btn__primary{
+  position: relative;
+  padding: 1.2rem 2rem;
+  background: linear-gradient(135deg, #544F72 0%, #170C5A 100%);
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border: 1px solid rgba(36, 26, 95, 1);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: .3s;
+  &:hover{
+    background: transparent;
+    color: rgba(36, 26, 95, 1);
+  }
+}
